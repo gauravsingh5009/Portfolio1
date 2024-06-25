@@ -128,13 +128,13 @@ nav ul li a{color: #fff; font: 500 20px var(--ff); padding: 10px;}
 .wrap-8 .btns{margin: 50px 0;}
 .wrap-8 .btns li{margin-right: 15px;}
 .wrap-8 .btns li a{padding: 10px 20px; border: 1px solid #06beb6; border-radius: 50px; display: inline-block; color: #06beb6;}
-.wrap-8 .card{position: relative;}
-.wrap-8 .details{position: absolute; inset: 0;}
+.wrap-8 .btns li a:hover{background: #06beb6; color: #f8f9fa;}
+.wrap-8 .card{position: relative; overflow: hidden;}
 .wrap-8 img{max-width: 100%; height: auto; margin: 15px 0;}
-.wrap-8 .details{background: #06beb659; color: #f8f9fa; display: none; margin: 15px 0;}
-.wrap-8 .card:hover .details{display: block;}
+.wrap-8 .details{position: absolute; inset: 0;  background: #06beb6;  color: #f8f9fa; margin: 15px 0; transform: scale(1,0); transition: all 500ms ease 0s;}
+.wrap-8 .card:hover .details{transform: none;}
 .wrap-8 h3{font: 500 18px var(--ff); padding: 80px 0 10px;}
-.wrap-8 .dbtn a{border-radius: 25px; margin: 0 0 15px 0; padding: 10px 20px; display: inline-block; background: #06beb6; color: #f8f9fa;}
+.wrap-8 .dbtn a{border-radius: 25px; margin: 0 0 15px 0; padding: 10px 20px; display: inline-block; background: #f8f9fa; color: #06beb6;}
 
 .wrap-9{padding: 30px 0; text-align: center;}
 .wrap-9 h2{font: 500 2rem var(--ff); margin-bottom: 1rem; color: #06beb6;}
