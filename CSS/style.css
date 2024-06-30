@@ -148,12 +148,11 @@ nav ul li a{color: #fff; font: 500 20px var(--ff); padding: 10px;}
 .wrap-8 .pro6{background: url("../Image/Project6.png") no-repeat top/cover; width: 100%; height: 400px; transition: all ease-in-out 5s;}
 .wrap-8 .pro6:hover{background-position-y: bottom; transition: all ease-in-out 5s;}
 .wrap-8 h2{font: 500 2rem var(--ff); margin-bottom: 1rem; color: #06beb6;}
-.wrap-8 p{font: 400 17px var(--ff); color: #414141; padding: 0 10px 20px 10px;}
+.wrap-8 p{font: 400 17px var(--ff); color: #414141; padding: 0 0 20px 0;}
 .wrap-8 .btns{margin: 50px 0;}
 .wrap-8 .btns li{margin-right: 15px;}
 .wrap-8 .btns li a{padding: 10px 20px; border: 1px solid #06beb6; border-radius: 50px; display: inline-block; color: #06beb6;}
-/* .wrap-8 .btns li a:hover{background: #06beb6; color: #f8f9fa;} */
-.wrap-8 .active:hover{background: #06beb6; color: #f8f9fa;}
+.wrap-8 .btns li .active{background: #06beb6; color: #f8f9fa;}
 .wrap-8 .card{position: relative; margin-bottom: 20px;}
 .wrap-8 .details{position: absolute; left: 0; right: 0; bottom: 0px;  background:rgb(228 238 238 / 49%);  color: #06beb6; transform: scale(1,0); transition: all 500ms ease 0s;}
 .wrap-8 .card:hover .details{transform: none;}

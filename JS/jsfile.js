@@ -17,16 +17,16 @@ $(function(){
         $(this).addClass("active");
     
         if ($(this).text() == "ALL") {
-            $(".html,.scss,.bootstrap").fadeIn();
+            $(".html,.sass,.bootstrap").fadeIn();
             
         }
         else if ($(this).text() == "HTML&CSS") {
             $(".html").fadeIn();
-            $(".scss, .bootstrap").fadeOut();
+            $(".sass, .bootstrap").fadeOut();
         }
         else if($(this).text()=="BOOTSTRAP"){
             $(".bootstrap").fadeIn();
-            $(".html,.scss").fadeOut();
+            $(".html,.sass").fadeOut();
         }
         else if($(this).text()=="SASS"){
             $(".sass").fadeIn();
