@@ -153,7 +153,8 @@ nav ul li a:hover{color: #414141;}
 .wrap-8 h2{font: 500 2rem var(--ff); margin-bottom: 1rem; color: #06beb6;}
 .wrap-8 p{font: 400 17px var(--ff); color: #414141; padding: 0 0 20px 0;}
 .wrap-8 .btns{margin: 50px 0;}
-.wrap-8 .btns li{margin-right: 15px;}
+.wrap-8 .btns li{margin: 20px 15px 0 0;}
+.wrap-8 .btns ul{display: flex; flex-flow: row wrap; justify-content: center;}
 .wrap-8 .btns li a{padding: 10px 20px; border: 1px solid #06beb6; border-radius: 50px; display: inline-block; color: #06beb6;}
 .wrap-8 .btns li .active{background: #06beb6; color: #f8f9fa;}
 .wrap-8 .card{position: relative; margin-bottom: 20px;}
@@ -217,7 +218,6 @@ nav ul li a:hover{color: #414141;}
     .col-m-12{ flex-basis:100%; max-width: 100%;}
 
     .wrap-5 .box {margin-bottom: 30px;}
-    .wrap-8 ul{overflow: auto;}
     .vertical-line{margin: 15px auto;}
     .wrap-6 .pos {padding: 10px 10px 10px 45px;}
     .wrap-6 .box1{padding: 20px 22px;}

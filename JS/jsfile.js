@@ -16,11 +16,7 @@ $(function(){
         $(".btns a").removeClass("active");
         $(this).addClass("active");
     
-        if ($(this).text() == "ALL") {
-            $(".html,.sass,.bootstrap").fadeIn();
-            
-        }
-        else if ($(this).text() == "HTML&CSS") {
+        if ($(this).text() == "HTML&CSS") {
             $(".html").fadeIn();
             $(".sass, .bootstrap").fadeOut();
         }
