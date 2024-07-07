@@ -71,7 +71,7 @@ body{
 
 /* Custom CSS */
 header{position: sticky; z-index: 100; top: 0;}
-.wrap-1{ padding: 1.5rem 0.5rem; background:linear-gradient(90deg, #06beb6 0%, #48b1bf 100%);}
+.wrap-1{ padding: 1.5rem 0; background:linear-gradient(90deg, #06beb6 0%, #48b1bf 100%);}
 .bgcolor{background:linear-gradient(90deg, #06beb6 0%, #48b1bf 100%);}
 .wrap-1 h1{font: 700 2rem var(--ff); color: #f8f9fa; text-align: center;}
 nav ul li a{color: #fff; font: 500 20px var(--ff); padding: 10px;}
@@ -218,6 +218,8 @@ nav ul li a:hover{color: #414141;}
 /* responsive */
 @media screen and (max-width:1220px){
     nav ul li a{font: 500 18px var(--ff); padding: 8px;}
+    .wrap-4 .progress-bar{width: 470px;}
+
 }
 @media screen and (max-width:980px){
     .col-t-1{ flex-basis:8.33%; max-width: 8.33%;}
@@ -288,6 +290,8 @@ nav ul li a:hover{color: #414141;}
     #orders{order: 1; margin-top: 20px; text-align: center;}
     .wrap-2 .center{text-align: center;}
     .wrap-5 a, address {padding: 20px;}
+    .wrap-4 .progress-bar{width: 350px;}
+
     
 }
 @media screen and (max-width:359px){
