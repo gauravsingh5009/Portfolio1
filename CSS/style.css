@@ -244,6 +244,9 @@ nav ul li a:hover{color: #414141;}
     .wrap-2 .banner h3 {font: 700 70px var(--ff);  line-height: 110px;}
     .wrap-5 a,address{font: 300 15px var(--ff); line-height: 30px;}
     .wrap-7 .ser {padding: 10px;}
+
+    .wrap-4 .center{display: grid; place-content: center;}
+    
 }
 @media screen and (max-width:767px){
     html{ font-size: 12px;}
