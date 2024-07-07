@@ -191,6 +191,12 @@ nav ul li a:hover{color: #414141;}
 .wrap-8 .pro6:hover{background-position-y: bottom; transition: all ease-in-out 5s;}
 .wrap-8 .pro7{background: url("../Image/Project7.png") no-repeat top/cover; width: 100%; height: 400px; transition: all ease-in-out 5s;}
 .wrap-8 .pro7:hover:hover{background-position-y: bottom; transition: all ease-in-out 5s;}
+.wrap-8 .pro8{background: url("../Image/Project8.webp") no-repeat top/cover; width: 100%; height: 400px; transition: all ease-in-out 5s;}
+.wrap-8 .pro8:hover:hover{background-position-y: bottom; transition: all ease-in-out 5s;}
+.wrap-8 .pro9{background: url("../Image/Project9.webp") no-repeat top/cover; width: 100%; height: 400px; transition: all ease-in-out 5s;}
+.wrap-8 .pro9:hover:hover{background-position-y: bottom; transition: all ease-in-out 5s;}
+.wrap-8 .pro10{background: url("../Image/Project10.webp") no-repeat top/cover; width: 100%; height: 400px; transition: all ease-in-out 5s;}
+.wrap-8 .pro10:hover:hover{background-position-y: bottom; transition: all ease-in-out 5s;}
 .wrap-8 h2{font: 500 2rem var(--ff); margin-bottom: 1rem; color: #06beb6;}
 .wrap-8 p{font: 400 17px var(--ff); color: #414141; padding: 0 0 20px 0;}
 .wrap-8 .btns{margin: 50px 0;}

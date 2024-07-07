@@ -18,15 +18,23 @@ $(function(){
     
         if ($(this).text() == "HTML&CSS") {
             $(".html").fadeIn();
-            $(".sass, .bootstrap").fadeOut();
+            $(".sass, .bootstrap, .javascript, .fetchapi").fadeOut();
+        }
+        else if($(this).text()=="FETCH API"){
+            $(".fetchapi").fadeIn();
+            $(".html,.sass,.bootstrap,.javascript").fadeOut();
+        }
+        else if($(this).text()=="JAVASCRIPT"){
+            $(".javascript").fadeIn();
+            $(".html,.sass,.bootstrap,.fetchapi").fadeOut();
         }
         else if($(this).text()=="BOOTSTRAP"){
             $(".bootstrap").fadeIn();
-            $(".html,.sass").fadeOut();
+            $(".html,.sass,.javascript,.fetchapi").fadeOut();
         }
         else if($(this).text()=="SASS"){
             $(".sass").fadeIn();
-            $(".html,.bootstrap").fadeOut();
+            $(".html,.bootstrap, .javascript, .fetchapi").fadeOut();
         }
     });
 
