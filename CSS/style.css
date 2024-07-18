@@ -307,6 +307,8 @@ nav ul li a:hover{color: #414141;}
     .wrap-2{padding-top: 50px;}
     #change{order: -1; padding: 0 0 50px 0;}  
     .wrap-9 .addr {margin-top: 0rem;}  
+    .wrap-9 address{font: 300 18px var(--ff); color: #343a40; line-height: 35px;}
+
 }
 @media screen and (max-width:359px){
     
