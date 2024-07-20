@@ -1,5 +1,7 @@
 $(function(){
 
+    AOS.init();         //AOS initilization
+
     $(".toggle").click(function(){
         $(this).toggleClass("active");
         $(".collapse").slideToggle()
