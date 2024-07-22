@@ -97,7 +97,7 @@ nav ul li a:hover{color: #414141;}
 .wrap-4{padding: 40px 0;}
 .wrap-4 h2{text-align: center; font: 500 2rem var(--ff); margin-bottom: 3rem; color: #06beb6;}
 .wrap-4 h3{font: 600 20px var(--ff); color: #000000d1; margin: 15px 0;}
-.wrap-4 .progress-bar{background: #727171; width: 570px; height: 10px; border-radius: 5px; margin: 10px 0 10px 0;}
+.wrap-4 .progress-bar{background: #727171; width: 100%; height: 10px; border-radius: 5px; margin: 10px 0 10px 0;}
 .wrap-4 .progress-bar div{width: 0%; height: 10px; border-radius: 5px; background:#06beb6;}
 .wrap-4 .progress-bar div span{float: right; width: 40px; height: 40px; border-radius: 50%; background: #48b1bf; color: #fff; margin-top: -15px; margin-right: -20px;  display: grid; place-items: center; }
 .wrap-4 .html{animation: html 1s linear forwards;}
@@ -208,7 +208,7 @@ nav ul li a:hover{color: #414141;}
 .wrap-8 .btns li a{padding: 10px 20px; border: 1px solid #06beb6; border-radius: 50px; display: inline-block; color: #06beb6;}
 .wrap-8 .btns li .active{background: #06beb6; color: #f8f9fa;}
 .wrap-8 .card{position: relative; margin-bottom: 20px;}
-.wrap-8 .details{position: absolute; left: 0; right: 0; bottom: 0px;  background:rgb(228 238 238 / 49%);  color: #06beb6; transform: scale(1,0); transition: all 500ms ease 0s;}
+.wrap-8 .details{position: absolute; left: 0; right: 0; bottom: 0px;  background:rgba(227, 237, 237, 0.8);  color: #06beb6; transform: scale(1,0); transition: all 500ms ease 0s;}
 .wrap-8 .card:hover .details{transform: none;}
 .wrap-8 h3{font: 500 20px var(--ff); padding: 40px 0 10px;}
 .wrap-8 .dbtn a{border-radius: 25px; margin: 0 0 15px 0; padding: 10px 20px; display: inline-block; background: #06beb6; color: #f8f9fa;}
@@ -228,8 +228,6 @@ nav ul li a:hover{color: #414141;}
 /* responsive */
 @media screen and (max-width:1220px){
     nav ul li a{font: 500 18px var(--ff); padding: 8px;}
-    .wrap-4 .progress-bar{width: 470px;}
-
 }
 @media screen and (max-width:980px){
     .col-t-1{ flex-basis:8.33%; max-width: 8.33%;}
@@ -253,7 +251,6 @@ nav ul li a:hover{color: #414141;}
     .wrap-2 .banner h3 {font: 700 70px var(--ff);  line-height: 110px;}
     .wrap-5 a,address{font: 300 15px var(--ff); line-height: 30px;}
     .wrap-7 .ser {padding: 10px;}
-    .wrap-4 .center{display: grid; place-content: center;}
     
 }
 @media screen and (max-width:767px){
@@ -305,7 +302,6 @@ nav ul li a:hover{color: #414141;}
     
     .wrap-2 img{width: 340px; height: 340px;}
     .wrap-5 a, address {padding: 20px;}
-    .wrap-4 .progress-bar{width: 350px;}
     .wrap-9 .addr {margin-top: 0rem;}  
     .wrap-9 address{font: 300 18px var(--ff); color: #343a40; line-height: 35px;}
 
