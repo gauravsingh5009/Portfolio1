@@ -20,23 +20,27 @@ $(function(){
     
         if ($(this).text() == "HTML&CSS") {
             $(".html").fadeIn();
-            $(".sass, .bootstrap, .javascript, .fetchapi").fadeOut();
+            $(".sass, .bootstrap, .javascript, .fetchapi,.react").fadeOut();
         }
         else if($(this).text()=="FETCH API"){
             $(".fetchapi").fadeIn();
-            $(".html,.sass,.bootstrap,.javascript").fadeOut();
+            $(".html,.sass,.bootstrap,.javascript,.react").fadeOut();
         }
         else if($(this).text()=="JAVASCRIPT"){
             $(".javascript").fadeIn();
-            $(".html,.sass,.bootstrap,.fetchapi").fadeOut();
+            $(".html,.sass,.bootstrap,.fetchapi,.react").fadeOut();
         }
         else if($(this).text()=="BOOTSTRAP"){
             $(".bootstrap").fadeIn();
-            $(".html,.sass,.javascript,.fetchapi").fadeOut();
+            $(".html,.sass,.javascript,.fetchapi,.react").fadeOut();
         }
         else if($(this).text()=="SASS"){
             $(".sass").fadeIn();
-            $(".html,.bootstrap, .javascript, .fetchapi").fadeOut();
+            $(".html,.bootstrap, .javascript, .fetchapi,.react").fadeOut();
+        }
+        else if($(this).text()=="REACT"){
+            $(".react").fadeIn();
+            $(".html,.bootstrap, .javascript, .fetchapi,.sass").fadeOut();
         }
     });
 
